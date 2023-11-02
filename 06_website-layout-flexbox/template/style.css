@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #c4ebf9;
+}
+
+header {
+    background-color:#02bfb1;
+}
+
+main {
+}
+
+aside {
+    background-color: #6edb6e;
+}
+
+article {
+    background-color: #fbb04c;
+}
+
+article .text {
+}
+
+.images-container {
+}
+
+footer {
+    background-color:#02bfb1;
+}
