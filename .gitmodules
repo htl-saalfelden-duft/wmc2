@@ -1,0 +1,3 @@
+[submodule "basic-concepts"]
+	path = basic-concepts
+	url = https://github.com/htl-saalfelden-duft/wmc2-basic-concepts.git
