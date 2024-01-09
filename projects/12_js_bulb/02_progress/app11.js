@@ -4,13 +4,13 @@ var container = document.querySelector(".container")
 var btnOn = document.querySelector('#btnOn')
 var btnOff = document.querySelector('#btnOff')
 
-var url = 'http://10.0.0.17'
+var url = "http://10.101.3.187"
 
-btnOn.addEventListener('click', async function() {
+btnOn.addEventListener('click', function() {
     bulb('on')
     showAlert('on')
 
-    await fetch(`${url}?led=on`)
+    fetch(`${url}?led=on`)
 })
 
 btnOff.addEventListener('click', async function() {
