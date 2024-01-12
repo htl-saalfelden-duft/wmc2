@@ -15,7 +15,7 @@ const fetchProducts = () => {
 
 
 /* Here are the calls #################*/
-async function loadProducts() {
+function loadProducts() {
     fetchProducts()
     .then((data) => {
         console.log(data)
