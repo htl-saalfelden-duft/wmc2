@@ -1,6 +1,6 @@
 var myImage = document.getElementById('myImage')
 var lampeAlert = document.getElementById('lampeAlert')
-var container = document.querySelector(".container")
+var body = document.querySelector("body")
 
 function bulb(status) {
     var alert = document.createElement('div')
@@ -18,7 +18,7 @@ function bulb(status) {
         alert.innerHTML = "Die Lampe ist aus"
     }
 
-    container.appendChild(alert)
+    body.appendChild(alert)
 
     setTimeout(function() {
         alert.remove()
