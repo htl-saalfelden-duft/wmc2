@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/577e574930.js" crossorigin="anonymous"></script>
+
+    <title>Zahlenraten</title>
+</head>
+
+<body>
+    <div id="messages"></div>
+    
+    <div class="container">
+        <header>
+            <h1><i id="magic" class="fas fa-brain text-primary"></i> Guess <span class="text-primary">the </span>Number</h1>
+        </header>       
+    
+        <div class="center-wrapper">
+            <form id="guess-form" class="row row-cols-lg-auto g-3 align-items-center">
+                <div class="col-12">
+                    <button type="button" id="new-game" class="btn btn-outline-secondary btn-lg">New Game</button>
+                </div>
+    
+                <div class="col-12">
+                    <label class="visually-hidden" for="guess">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><i id="guess-icon" class="fa-solid fa-question"></i></div>
+                        <input type="number" class="form-control form-control-lg" id="guess" placeholder="your guess" max="100">
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <button type="submit" class="btn btn-outline-primary btn-lg">Check</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
