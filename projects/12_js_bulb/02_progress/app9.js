@@ -3,9 +3,12 @@ var lampeAlert = document.getElementById('lampeAlert')
 var body = document.querySelector("body")
 
 function bulb(status) {
+    /* <div id="lampeAlert" class="alert alert-primary" role="alert">
+        Die Lampe ist aus
+    </div> */
     var alert = document.createElement('div')
     alert.classList.add('alert')
-    alert.classList.add('mt-4')
+    alert.role = 'alert'
 
     if(status == 'on') {
         myImage.src='./images/pic_bulbon.gif'
@@ -24,8 +27,3 @@ function bulb(status) {
         alert.remove()
     }, 2000)
 }
-
-
-/* <div id="lampeAlert" class="alert alert-primary mt-4" role="alert">
-    Die Lampe ist aus
-</div> */
